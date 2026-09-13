@@ -32,19 +32,18 @@ The reported simulations are **internal model evidence**. External empirical val
 
 ## Repository structure
 
-- `paper/Selection_Without_Desire_v1.0.pdf` — canonical manuscript matching the Zenodo v1.0 deposit
-- `paper/Selection_Without_Desire_v1.0.docx` — editable manuscript source
-- `supplement/Selection_Without_Desire_Supplementary_Model_v1.0.xlsx` — analytical model and synthetic results workbook
+- `paper/README.md` — pointer to the DOI-backed canonical manuscript
+- `supplement/README.md` — pointer to the DOI-backed analytical workbook
 - `code/simulation_model.py` — clean implementation of the synthetic eco-evolutionary model
 - `code/REPRODUCIBILITY.md` — evidence levels and reproduction notes
 - `code/requirements.txt` — Python dependencies
-- `data/` — canonical synthetic outputs reported in the manuscript
+- `data/` — compact reported summary outputs plus a pointer to the complete DOI-backed raw-data archive
 - `PREREGISTRATION_OSF.md` — preregistration-ready external agent-population experiment
-- `policy/` — policy-facing interpretation
+- `policy/README.md` — policy-facing interpretation and archive pointer
 - `CITATION.cff` — machine-readable citation metadata
-- `DEPOSIT_METADATA.json` — release metadata
-- `SHA256SUMS.txt` — SHA-256 fingerprints for provenance
-- `docs/` — dissemination and impact-tracking materials
+- `DEPOSIT_METADATA.json` — public release metadata
+- `docs/OUTREACH_PLAN.md` — staged dissemination and credit plan
+- `docs/IMPACT_TRACKING.md` — tracking template for citation, reuse, policy uptake, and derivatives
 
 ## Reproducibility
 
@@ -54,7 +53,7 @@ The repository distinguishes three evidence levels:
 2. **Synthetic held-out prediction** — evaluates GPIN on unseen synthetic environments generated from the same structural model family.
 3. **External empirical validation** — not yet performed.
 
-The supplied Python script includes a smoke test. The canonical CSV outputs under `data/` contain the reported synthetic experiment outputs, including the 2×2 mechanism-discrimination experiment and the 300-environment GPIN holdout evaluation.
+The supplied Python script includes a smoke test. Compact reported summaries are included directly under `data/`; the complete raw synthetic outputs and supplementary workbook remain frozen in the Zenodo v1.0 publication package so the DOI-backed record is the authoritative snapshot.
 
 ## Canonical citation
 
@@ -66,7 +65,7 @@ Boaz Benrush is the human author and bears responsibility for the research. Gene
 
 ## License
 
-Except where otherwise noted, the manuscript, explanatory research materials, data, and research implementation in this v1.0 repository are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See `LICENSE_CC_BY_4.0.txt`.
+This repository follows the license of the canonical Zenodo v1.0 record: **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See `LICENSE.md`.
 
 ## Version integrity
 
