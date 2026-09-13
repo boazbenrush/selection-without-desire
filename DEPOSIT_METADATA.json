@@ -1,0 +1,24 @@
+{
+  "title": "Selection Without Desire: Eco-Evolutionary Emergence of Persistence in Resource-Constrained Self-Designing AI Populations",
+  "creator": "Boaz Benrush",
+  "affiliation": "Independent Researcher",
+  "orcid": "0009-0008-6200-1523",
+  "publication_date": "2026-09-13",
+  "version": "1.0.0",
+  "resource_type": "Publication / preprint",
+  "license": "CC BY 4.0",
+  "doi": "10.5281/zenodo.22730599",
+  "repository": "https://github.com/boazbenrush/selection-without-desire",
+  "keywords": [
+    "AI safety",
+    "artificial life",
+    "evolutionary dynamics",
+    "self-designing AI",
+    "persistence",
+    "resource competition",
+    "recursive self-improvement",
+    "agentic systems",
+    "GPIN"
+  ],
+  "description": "Formal and synthetic study of a lineage-level selection pathway to persistence-like behavior distinct from agent-level instrumental self-preservation. Introduces GPIN and a preregisterable mechanism-discrimination experiment."
+}
